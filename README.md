@@ -1,4 +1,0 @@
-GitTestExampleRemoteRepository
-==============================
-
-Ray Wanderlich Tutorial 
