@@ -25,11 +25,22 @@
                                     <action selector="clickTheButton:" destination="2" eventType="touchUpInside" id="nQ1-YM-jpB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This label will show up in the trunk after merging" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0x-78-w40">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="265" id="CDW-07-O7F"/>
+                                    <constraint firstAttribute="height" constant="21" id="zUd-7A-WbX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="R0P-O9-h46" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="66" id="aM2-Rb-qDI"/>
+                            <constraint firstItem="Y0x-78-w40" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="APz-Pl-TBc"/>
+                            <constraint firstItem="Y0x-78-w40" firstAttribute="top" secondItem="3" secondAttribute="top" constant="154" id="RJO-Ry-RjV"/>
                             <constraint firstItem="R0P-O9-h46" firstAttribute="top" secondItem="3" secondAttribute="top" constant="228" id="c44-KK-g0N"/>
+                            <constraint firstItem="R0P-O9-h46" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="66" id="mpV-6b-f5T"/>
                         </constraints>
                     </view>
                 </viewController>
